@@ -40,6 +40,19 @@
   "oclif": {
     "commands": "./lib/commands",
     "bin": "tarballcli",
+    "update": {
+      "autoupdate": {
+        "rollout": 50,
+        "debounce": 60
+      },
+      "node": {
+        "version": "12.12.0"
+      },
+      "s3": {
+        "bucket": "vtex-toolbelt-test",
+        "xz": true
+      }
+    },
     "plugins": [
       "@oclif/plugin-help"
     ]
@@ -50,7 +63,9 @@
     "posttest": "eslint . --ext .ts --config .eslintrc",
     "prepack": "rm -rf lib && tsc -b && oclif-dev manifest && oclif-dev readme",
     "test": "echo NO TESTS",
-    "version": "oclif-dev readme && git add README.md"
+    "version": "oclif-dev readme && git add README.md",
+    "build-clean": "rm -rf build",
+    "build": "yarn build-clean && yarn tsc && yarn oclif-dev manifest"
   },
   "types": "lib/index.d.ts"
 }

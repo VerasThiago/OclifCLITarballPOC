@@ -33,7 +33,7 @@ USAGE
 
 ## `tarballcli hello [FILE]`
 
-describe the command here
+Display basic message
 
 ```
 USAGE
@@ -46,7 +46,6 @@ OPTIONS
 
 EXAMPLE
   $ tarballcli hello
-  hello world from ./src/hello.ts!
 ```
 
 _See code: [src/commands/hello.ts](https://github.com/VerasThiago/tarballcli/blob/v0.0.0/src/commands/hello.ts)_
