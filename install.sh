@@ -53,12 +53,15 @@
         URL=https://vtex-toolbelt-test.s3.us-east-2.amazonaws.com/tarballcli-\$OS-\$ARCH.tar.gz
         TAR_ARGS="xz"
     fi
+    
     echo "Installing VTEX from \$URL"
+    
     if [ \$(command -v curl) ]; then
         curl "\$URL" | tar "\$TAR_ARGS"
     else
         wget -O- "\$URL" | tar "\$TAR_ARGS"
     fi
+    
     # delete old toolbelt bin if exists
     rm -f \$(command -v tarballcli) || true
     rm -f /usr/local/bin/tarballcli
