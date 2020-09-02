@@ -28,28 +28,9 @@ USAGE
 <!-- usagestop -->
 # Commands
 <!-- commands -->
-* [`tarballcli hello [FILE]`](#tarballcli-hello-file)
 * [`tarballcli help [COMMAND]`](#tarballcli-help-command)
 * [`tarballcli salve [FILE]`](#tarballcli-salve-file)
-
-## `tarballcli hello [FILE]`
-
-Display basic message
-
-```
-USAGE
-  $ tarballcli hello [FILE]
-
-OPTIONS
-  -f, --force
-  -h, --help       show CLI help
-  -n, --name=name  name to print
-
-EXAMPLE
-  $ tarballcli hello
-```
-
-_See code: [src/commands/hello.ts](https://github.com/VerasThiago/tarballcli/blob/v0.0.0/src/commands/hello.ts)_
+* [`tarballcli update [CHANNEL]`](#tarballcli-update-channel)
 
 ## `tarballcli help [COMMAND]`
 
@@ -86,4 +67,15 @@ EXAMPLE
 ```
 
 _See code: [src/commands/salve.ts](https://github.com/VerasThiago/tarballcli/blob/v0.0.0/src/commands/salve.ts)_
+
+## `tarballcli update [CHANNEL]`
+
+update the tarballcli CLI
+
+```
+USAGE
+  $ tarballcli update [CHANNEL]
+```
+
+_See code: [@oclif/plugin-update](https://github.com/oclif/plugin-update/blob/v1.3.10/src/commands/update.ts)_
 <!-- commandsstop -->
