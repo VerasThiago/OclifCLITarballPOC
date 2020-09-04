@@ -23,10 +23,15 @@
     fi
 
     echo "Uninstalling VTEX"
-    rm -rf /usr/local/bin/tarball
+
+    echo "removing /usr/local/bin/tarballcli ..."
+    rm -rf /usr/local/bin/tarballcli
+    echo "removing command -v tarballcli ..."
     rm -f \$(command -v tarballcli) || true
-    rm -rf ~/.local/share/tarball/client
-    rm -rf /usr/local/lib/tarball
+    echo "removing ~/.local/share/tarballcli ..."
+    rm -rf ~/.local/share/tarballcli
+    echo "removing /usr/local/lib/tarballcli ..."
+    rm -rf /usr/local/lib/tarballcli
     
 SCRIPT
     echo "VTEX Uninstalled"

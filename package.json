@@ -1,6 +1,6 @@
 {
   "name": "tarballcli",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "author": "Thiago Veras @VerasThiago",
   "bin": {
     "tarballcli": "./bin/run"
