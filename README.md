@@ -19,7 +19,7 @@ $ npm install -g tarballcli
 $ tarballcli COMMAND
 running command...
 $ tarballcli (-v|--version|version)
-tarballcli/0.0.6 darwin-x64 node-v12.18.3
+tarballcli/0.0.7 darwin-x64 node-v12.18.3
 $ tarballcli --help [COMMAND]
 USAGE
   $ tarballcli COMMAND
@@ -30,7 +30,6 @@ USAGE
 <!-- commands -->
 * [`tarballcli help [COMMAND]`](#tarballcli-help-command)
 * [`tarballcli salve [FILE]`](#tarballcli-salve-file)
-* [`tarballcli test [FILE]`](#tarballcli-test-file)
 * [`tarballcli time [FILE]`](#tarballcli-time-file)
 * [`tarballcli update [CHANNEL]`](#tarballcli-update-channel)
 
@@ -68,26 +67,7 @@ EXAMPLE
   $ tarballcli salve
 ```
 
-_See code: [src/commands/salve.ts](https://github.com/VerasThiago/tarballcli/blob/v0.0.6/src/commands/salve.ts)_
-
-## `tarballcli test [FILE]`
-
-Display basic message
-
-```
-USAGE
-  $ tarballcli test [FILE]
-
-OPTIONS
-  -f, --force
-  -h, --help       show CLI help
-  -n, --name=name  name to print
-
-EXAMPLE
-  $ tarballcli test
-```
-
-_See code: [src/commands/test.ts](https://github.com/VerasThiago/tarballcli/blob/v0.0.6/src/commands/test.ts)_
+_See code: [src/commands/salve.ts](https://github.com/VerasThiago/tarballcli/blob/v0.0.7/src/commands/salve.ts)_
 
 ## `tarballcli time [FILE]`
 
@@ -106,7 +86,7 @@ EXAMPLE
   $ tarballcli time
 ```
 
-_See code: [src/commands/time.ts](https://github.com/VerasThiago/tarballcli/blob/v0.0.6/src/commands/time.ts)_
+_See code: [src/commands/time.ts](https://github.com/VerasThiago/tarballcli/blob/v0.0.7/src/commands/time.ts)_
 
 ## `tarballcli update [CHANNEL]`
 
@@ -117,5 +97,5 @@ USAGE
   $ tarballcli update [CHANNEL]
 ```
 
-_See code: [@thiagoveras/plugin-update](https://github.com/VerasThiago/plugin-update/blob/v0.0.0/src/commands/update.ts)_
+_See code: [@thiagoveras/plugin-update](https://github.com/VerasThiago/plugin-update/blob/v0.1.0/src/commands/update.ts)_
 <!-- commandsstop -->
