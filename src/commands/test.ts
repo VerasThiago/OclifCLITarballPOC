@@ -1,10 +1,10 @@
 import {Command, flags} from '@oclif/command'
 
-export default class Test1 extends Command {
+export default class Test extends Command {
   static description = 'Display basic message'
 
   static examples = [
-    `$ tarballcli test1`,
+    `$ tarballcli test`,
   ]
 
   static flags = {
@@ -18,6 +18,6 @@ export default class Test1 extends Command {
   static args = [{name: 'file'}]
 
   async run() {
-    this.log(`Test1 command called`)
+    this.log('Test command called')
   }
 }

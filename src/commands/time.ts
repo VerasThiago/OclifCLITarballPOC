@@ -1,10 +1,10 @@
 import {Command, flags} from '@oclif/command'
 
-export default class Test3 extends Command {
+export default class Time extends Command {
   static description = 'Display basic message'
 
   static examples = [
-    `$ tarballcli test3`,
+    `$ tarballcli time`,
   ]
 
   static flags = {
@@ -18,6 +18,7 @@ export default class Test3 extends Command {
   static args = [{name: 'file'}]
 
   async run() {
-    this.log(`Test3 command called`)
+    const {args, flags} = this.parse(Time)
+    this.log('Current time: ', new Date())
   }
 }
