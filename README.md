@@ -28,11 +28,31 @@ USAGE
 <!-- usagestop -->
 # Commands
 <!-- commands -->
+* [`tarballcli earpods [FILE]`](#tarballcli-earpods-file)
 * [`tarballcli help [COMMAND]`](#tarballcli-help-command)
 * [`tarballcli mac [FILE]`](#tarballcli-mac-file)
 * [`tarballcli salve [FILE]`](#tarballcli-salve-file)
 * [`tarballcli time [FILE]`](#tarballcli-time-file)
 * [`tarballcli update [CHANNEL]`](#tarballcli-update-channel)
+
+## `tarballcli earpods [FILE]`
+
+Display basic message
+
+```
+USAGE
+  $ tarballcli earpods [FILE]
+
+OPTIONS
+  -f, --force
+  -h, --help       show CLI help
+  -n, --name=name  name to print
+
+EXAMPLE
+  $ tarballcli earpods
+```
+
+_See code: [src/commands/earpods.ts](https://github.com/VerasThiago/tarballcli/blob/v0.1.0/src/commands/earpods.ts)_
 
 ## `tarballcli help [COMMAND]`
 
