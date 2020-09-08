@@ -10,7 +10,7 @@
     "@oclif/command": "^1",
     "@oclif/config": "^1",
     "@oclif/plugin-help": "^3",
-    "@thiagoveras/plugin-update": "^0.1.0",
+    "@thiagoveras/plugin-update": "^0.3.0",
     "tslib": "^1"
   },
   "devDependencies": {
@@ -47,7 +47,7 @@
         "version": "12.12.0"
       },
       "s3": {
-        "bucket": "vtex-toolbelt-test",
+        "bucket": "vtex-toolbelt-test"
       }
     },
     "plugins": [

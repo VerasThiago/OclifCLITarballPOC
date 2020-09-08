@@ -157,10 +157,10 @@
   resolved "https://registry.yarnpkg.com/@oclif/screen/-/screen-1.0.4.tgz#b740f68609dfae8aa71c3a6cab15d816407ba493"
   integrity sha512-60CHpq+eqnTxLZQ4PGHYNwUX572hgpMHGPtTWMjdTMsAvlm69lZV/4ly6O3sAYkomo4NggGcomrDpBe34rxUqw==
 
-"@thiagoveras/plugin-update@^0.1.0":
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/@thiagoveras/plugin-update/-/plugin-update-0.1.0.tgz#8d1fa63b78104654971e2edc40f495263e8dc091"
-  integrity sha512-kSO0gixOpuCsH30fBqEeklrH2EZ+SMigOdzjoBqZc568GpJfrpOv60z2UXbDWl5KNL3q3oA0Cx+x0pKcmUwLNw==
+"@thiagoveras/plugin-update@^0.3.0":
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/@thiagoveras/plugin-update/-/plugin-update-0.3.0.tgz#6b729433be4a3b433d8ba5813c18839ec366f7f8"
+  integrity sha512-oSPX9Hx+GTCRlIR70pFdqCR1DEb7AV2IxQtorbckqfFgdtsSBaHSPGuiESQPNkxsOqStFBqnKJYFyr/Q0dIy7A==
   dependencies:
     "@oclif/color" "^0.1.0"
     "@oclif/command" "^1.7.0"
