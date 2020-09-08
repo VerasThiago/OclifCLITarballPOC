@@ -10,7 +10,7 @@
     "@oclif/command": "^1",
     "@oclif/config": "^1",
     "@oclif/plugin-help": "^3",
-    "@thiagoveras/plugin-update": "^0.0.0",
+    "@thiagoveras/plugin-update": "^0.1.0",
     "tslib": "^1"
   },
   "devDependencies": {
